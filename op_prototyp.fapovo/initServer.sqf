@@ -1,0 +1,1 @@
+_checkJeep = execVM "scripts\checkCombatJeep1.sqf";
