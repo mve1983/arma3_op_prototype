@@ -1,11 +1,19 @@
+enableDebugConsole = 1;
 
 class CfgMusic
 {
 	tracks[] = {};
+
 	class Intro
 	{
 		name	= "intro";
 		sound[]	= { "\music\intro.ogg", db + 0, 1.0 };
 	};	
+
+	class Outro
+	{
+		name	= "outro";
+		sound[]	= { "\music\outro.ogg", db + 0, 1.0 };
+	}
 
 };

@@ -15,6 +15,7 @@ while {
 };
 
 heli1 lock true;
+playMusic "outro";
 
 diwako_dui_nametags_enabled = false;
 diwako_dui_enable_compass = false;
